@@ -30,7 +30,7 @@
                         "zona 7";    
     }
 
-    @for $var  from 1 to 10 {}
+    @for $var from 1 to 10 {
         @if ($var == 1 ){
             h2:nth-child(#{$var}){
                 grid-area: zona#{$var};

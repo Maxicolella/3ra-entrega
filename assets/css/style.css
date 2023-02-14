@@ -1,5 +1,27 @@
+.navegador{
+    background-color: blue;
+}
+.navegador > ul{
+        list-style-type: none;
+        display: flex;
+}
+.navegador > ul > li > a{
+                text-decoration: none;
+                color: black;
+                padding: 10px 20px;
+                display: inline-block;
+                font-size: 20px;
+                position: sticky;
+                border-top: solid 1px green;
+                border-bottom: solid 1px green;        
+}
+
+.navegador > ul > li > a:hover{
+    color: antiquewhite
+}
+
 .tarjeta{
-    width: 100 px;
+    width: 33%;
     border: solid 1px;
     border-radius: 8px;
     overflow: hidden;
@@ -8,7 +30,7 @@
 }
 
 .tarjeta_img{
-    width: 33%;
+    width: 100%;
     position: relative;
 }
 
@@ -26,7 +48,7 @@
 }
 
 .btn{
-    width: 70px;
+    width: 90px;
     display: block;
     padding: 10px;
     border-radius: 8px;
